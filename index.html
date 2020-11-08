@@ -297,27 +297,27 @@
     <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
     <script src="assets/js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
 
+ 
     <!-- Start Open Web Analytics Tracker -->
     <script type="text/javascript">
-        //<![CDATA[
-        var owa_baseUrl = 'https://owa.00010001.xyz/';
-        var owa_cmds = owa_cmds || [];
-        owa_cmds.push(['setSiteId', '2dd8fae46cc51c606e742e454bddd57a']);
-        owa_cmds.push(['trackPageView']);
-        owa_cmds.push(['trackClicks']);
+    //<![CDATA[
+    var owa_baseUrl = 'https://owa.00010001.xyz/';
+    var owa_cmds = owa_cmds || [];
+    owa_cmds.push(['setSiteId', 'dade9ed40c792e1175cd9ee2e7967ccb']);
+    owa_cmds.push(['trackPageView']);
+    owa_cmds.push(['trackClicks']);
 
-        (function () {
-            var _owa = document.createElement('script');
-            _owa.type = 'text/javascript';
-            _owa.async = true;
-            owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(
-                /http:/, 'https:') : owa_baseUrl);
-            _owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
-            var _owa_s = document.getElementsByTagName('script')[0];
-            _owa_s.parentNode.insertBefore(_owa, _owa_s);
-        }());
-        //]]>
+    (function() {
+        var _owa = document.createElement('script'); _owa.type = 'text/javascript'; _owa.async = true;
+        owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl );
+        _owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
+        var _owa_s = document.getElementsByTagName('script')[0]; _owa_s.parentNode.insertBefore(_owa, _owa_s);
+    }());
+    //]]>
     </script>
+    <!-- End Open Web Analytics Code -->
+
+        
 </body>
 
 </html>
